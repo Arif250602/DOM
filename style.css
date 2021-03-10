@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+  list-style: none;
+  outline: none;
+}
+body {
+  background-color: azure;
+  height: 150vh;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+}
+.card {
+  background-color: bisque;
+  height: 600px;
+  width: 450px;
+}
+#card-header {
+  border: 1px solid white;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#card-body {
+  border: 1px solid white;
+  height: 100%;
+  background-color: burlywood;
+}
+.title {
+  position: relative;
+  top: 20px;
+}
+
+.input {
+  margin-top: 30px;
+  padding: 0 5px;
+  align-self: center;
+  width: 250px;
+  border: none;
+  border-radius: 2px;
+  height: 30px;
+}
+.body-title {
+  font-size: 30px;
+  margin: 10px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 20px;
+}
+.name {
+  width: 260px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(240, 236, 236);
+}
+.delete {
+  background-color: wheat;
+  padding: 5px;
+  border-radius: 8px;
+}
+.add-input {
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+.addinput {
+  position: relative;
+  width: 250px;
+  transform: translateX(100px);
+}
+
+.add {
+  width: 70px;
+  border: none;
+  padding: 5px 15px;
+  position: absolute;
+  border-radius: 5px;
+  right: 0;
+  background-color: antiquewhite;
+}
